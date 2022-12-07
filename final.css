@@ -1,0 +1,301 @@
+html{ 
+    scroll-behavior: smooth; 
+} 
+header{ 
+    background-image: url(https://ladespensa.com.pe/wp-content/uploads/2020/04/TORTA-DE-CHOCOLATE-ADRIANA.jpg);
+    background-repeat: no-repeat; 
+    text-align: center; 
+    padding: 20px 10px; 
+    font-family: 'Courier New', Courier, monospace; 
+} 
+body{ 
+    background-color: rgb(0, 0, 0); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+} 
+body section{ 
+    background-image: url(imagenfondo.jpg);
+    background-size: 100%; 
+    color: aliceblue; 
+    font-size: 23px; 
+    padding: 0% ;
+    vertical-align: baseline;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+} 
+h2{ 
+    border: 15px solid #502400; 
+    padding: 2px; 
+    border-radius: 30px; 
+    background: rgba(0, 0, 0, 0.9); 
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #ffffbf;
+    text-align: center;
+    padding-right: 20px;
+} 
+
+.pie { 
+    width: 100%; 
+    background-color: #421e00; 
+    color:white; 
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+} 
+p{ 
+    
+    padding-left: 68px;
+    padding-right: 68px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+} 
+.contenedor{ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr); 
+    -ms-grid-column-align: center; 
+    grid-gap: 1em; 
+    grid-template-rows: minmax(10px auto); 
+    padding: 80px; 
+    background: rgba(0, 0, 0, 0.7); 
+} 
+.contenedor div{ 
+    background-color: rgb(0, 0, 0); 
+} 
+.contenedor div:hover{ 
+    border: 15px solid #ffffbf; 
+} 
+.contenedor2{ 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    -ms-grid-column-align: center; 
+    grid-gap: 1em; 
+    grid-template-rows: minmax(10px auto); 
+    padding: 80px; 
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.7) ; 
+} 
+.testimonios{ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr); 
+    -ms-grid-column-align: center; 
+    grid-gap: 1em; 
+    grid-template-rows: minmax(10px auto); 
+    padding: 80px; 
+    background: rgba(0, 0, 0, 0.7); 
+}
+.testimonios div:hover{
+    border: 15px solid rgb(255, 255, 255); 
+}
+.oscuro img:hover{
+    border: 5px solid rgb(233, 92, 92); 
+}
+table{
+    width: 100%;
+}
+.cont{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    padding: 0%;
+}
+.cont p1{
+    padding: 20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.cont h4{
+    color: coral;
+} 
+.cont h5{
+    color: coral;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: none;
+}
+header label:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(251, 251, 255);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.menu li:hover{
+    background-color: #502400;
+}
+.menu li{
+    border: 2px solid #ffffbf;
+    border-radius: 10px;
+    padding: 2px;
+}
+.titulo{
+    color: #ffffbf;
+    background-color: #753500;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+}
+h3{
+    color: rgb(255, 106, 52);
+    padding-left: 50px;
+}
+.oscuro{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.oscuro p{
+    background-color: none;
+}
+.li{
+    color: white;
+}
+   
+@media only screen and (max-width:600px){
+    html{ 
+        scroll-behavior: smooth; 
+    } 
+    header{ 
+        background-color:#753500; 
+        color: aliceblue; 
+        text-align: center; 
+        padding: 10px;
+        font-size: 10px; 
+    } 
+    body{ 
+        background-image: url(https://i.pinimg.com/474x/69/b4/f6/69b4f627cf26dc200d63f28b0caeb6f6.jpg); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    } 
+    body section{ 
+        background-image: url(https://thumbs.dreamstime.com/z/fondo-completo-del-marco-de-chocolates-gastr%C3%B3nomos-los-hechos-mano-la-almendra-garapi%C3%B1ada-con-modelos-decorativos-y-las-capas-148295526.jpg); 
+        color: aliceblue; 
+        font-size: 23px; 
+        padding: 0px 0px; 
+    } 
+    h2{ 
+        border: 15px solid #502400; 
+        padding: 5px; 
+        border-radius: 30px; 
+        background: rgba(0, 0, 0, 0.9); 
+        text-align: center;
+        font-size: 20px; 
+    }  
+    .pie { 
+        width: 100%; 
+        background-color: #502400; 
+        color:white; 
+        text-align: center;
+        padding: 2px;
+        font-size: 15px;
+        vertical-align: bottom 0%;
+    } 
+    p{ 
+        font-size: 15px;
+        padding-left: 68px; 
+    } 
+    .contenedor{ 
+        display: grid; 
+        grid-template-columns: repeat(1,1fr); 
+        -ms-grid-column-align: center; 
+        grid-gap: 1em; 
+        grid-template-rows: minmax(10px auto); 
+        padding: 80px; 
+        background: rgba(0, 0, 0, 0.7); 
+    } 
+    .contenedor div{ 
+        background-color: rgb(0, 0, 0); 
+    } 
+    .contenedor div:hover{ 
+        border: 15px solid rgb(255, 255, 255); 
+    } 
+    .contenedor2{ 
+        display: grid; 
+        grid-template-columns: repeat(1,2fr); 
+        -ms-grid-column-align: center; 
+        grid-gap: 1em; 
+        grid-template-rows: minmax(5px auto); 
+        padding: 100px; 
+        font-size: 20px; 
+    } 
+    .testimonios{ 
+        display: grid; 
+        grid-template-columns: repeat(1,1fr); 
+        -ms-grid-column-align: center; 
+        grid-gap: 1em; 
+        grid-template-rows: minmax(10px auto); 
+        padding: 80px; 
+        background: rgba(0, 0, 0, 0.7); 
+    }
+    .testimonios div:hover{
+        border: 15px solid rgb(255, 255, 255); 
+    }
+    .oscuro{
+        background: rgba(0, 0, 0, 0.9);
+        align-items: initial;
+    }
+    .oscuro img:hover{
+        border: 5px solid rgb(233, 92, 92); 
+    }
+    .cont{
+        background-color: rgba(0, 0, 0, 0.9);
+        display: grid; 
+        grid-template-columns: repeat(1,1fr); 
+        padding: 0%;
+    }
+    .cont p1{
+        padding: 20%;
+        font-size: 14px;
+    }
+    .cont h4{
+        color: coral;
+        font-size: 14px;
+        text-align: center;
+    } 
+    .cont h5{
+        color: coral;
+        font-size: 14px;
+        text-align: center;
+    }
+    header label{
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background-image: url(https://us.123rf.com/450wm/mrspopman/mrspopman1502/mrspopman150200002/36357575-ilustraci%C3%B3n-de-color-chocolate-de-fondo.jpg);
+        width: 70%;
+        margin-left: -80%;
+        transition: all 0.5s;
+        padding-left: 0%;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 2px solid white;
+    }
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    } 
+    h3{
+        font-size: 17px;
+    }
+    .titulo{
+        font-size: 12px;
+    } 
+}

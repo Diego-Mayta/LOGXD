@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c96979b7-66e7-4468-a208-f132ebe1aea4/dejl4m7-87cdc040-cb10-4420-af33-48518b982b49.png/v1/fill/w_1280,h_720,q_80,strp/cheems_by_mmkfokss_dejl4m7-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYzk2OTc5YjctNjZlNy00NDY4LWEyMDgtZjEzMmViZTFhZWE0XC9kZWpsNG03LTg3Y2RjMDQwLWNiMTAtNDQyMC1hZjMzLTQ4NTE4Yjk4MmI0OS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-d2yLKpHiE4N1CyNcenkP3aPGvMuiIMLp9OLcCBe0i8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 25px;
+}
+table{
+    background-color: rgba(0, 0, 0, 0.74);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 27px;
+    color: white;
+}
+table input[type="password"] {
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 3px rgb(16, 231, 231);
+}
+table input[type="text"] {
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 3px rgb(16, 231, 231);
+}
+table input[type="email"] {
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 3px rgb(16, 231, 231);
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+}
+button:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+input:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+label{
+    font-size: 20px
+}
+.write{
+    background-color: aqua;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: bisque;
+    background-color: black;
+}

@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/59/74/HD-wallpaper-humor-doge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 25px;
+}
+table{
+    background-color: rgba(0, 0, 0, 0.829);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 27px;
+    color: white;
+}
+table input[type="password"] {
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 3px rgb(16, 231, 231);
+}
+table input[type="text"] {
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid 3px rgb(16, 231, 231);
+}
+table input[type="checkbox"] {
+    font-size: 10px;
+    border-radius: 10px;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+}
+button:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+input:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+label{
+    font-size: 20px
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: bisque;
+    background-color: black;
+}

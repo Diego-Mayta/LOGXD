@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1> CHOCOLATES </h1>
+    </div>
+    <header> 
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu"><img src="data:image/png;base64,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" width="30px" height="30px">
+    </label>
+    <table class="menu">
+        <tr >
+            <td>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvyWqds2Z00WZshG8SfDl0-TN5UpCE4ah8QA&usqp=CAU" width="80px" height="60px">
+            </td>
+            <td>
+            <nav>
+                <ul>
+                    <li><a href="ffff.html">Registrarse </a></li> &nbsp;
+                    <li><a href="#fich">Testimonios</a></li>
+                    &nbsp;<li><a href="#sin">Quienes Somos</a></li>
+                    &nbsp;<li><a href="#gal"> Galeria </a></li>
+                    &nbsp;<li><a href="#tra"> Contacto </a></li>
+                    
+                </ul>
+            </nav>
+        </td>
+        </tr>
+    </table>
+    </header>
+    <section>
+    <a id="fich"></a>
+    <h2> Testimonios </h2>
+        <div class="testimonios">       
+            <div>
+                <a href="https://i.pinimg.com/originals/e1/60/e0/e160e04b4d1e3f3a4fa2745d8011a0d7.png"> <img src="https://i.pinimg.com/originals/e1/60/e0/e160e04b4d1e3f3a4fa2745d8011a0d7.png" style="width: 100%;"></a>
+            </div>
+            <div>
+                <a href="https://i1.wp.com/onaircode.com/wp-content/uploads/2020/01/Bootstrap-Testimonial-Slider.jpg?fit=1024%2C582&ssl=1"> <img src="https://i1.wp.com/onaircode.com/wp-content/uploads/2020/01/Bootstrap-Testimonial-Slider.jpg?fit=1024%2C582&ssl=1" style="width: 100%;"></a>
+            </div>
+            <div>
+                <a href="https://shots.codepen.io/marius4568/pen/Exwrygm-1280.jpg?version=1642586303"> <img src="https://shots.codepen.io/marius4568/pen/Exwrygm-1280.jpg?version=1642586303" style="width: 100%;"></a>
+            </div>
+
+        </div>
+    <a id="sin"></a>
+    <h2>¿ Quienes Somos ?</h2>
+    <div class="oscuro">
+        <br>
+        <h3> historia </h3>
+            <p>INCADEX S.R.L. (Industria de Cacao de Exportación) nació como una empresa exportadora de cacao. Al cabo de unos años invirtió en maquinaria de punta para la fabricación de chocolates y creó la reconocida marca “Breick”. Ésta se convirtió en la mayor industria de chocolates en Bolivia, ampliando sus líneas de producción de tabletas a bombones, grageas, insumos de repostería, galletas y ahora gomitas; un conjunto de más de cien productos que la empresa confecciona hoy en día.
+
+            El trabajo dentro de Breick va desde la elaboración y fabricación de todas las líneas de productos hasta la distribución de los mismos en los departamentos de: La Paz, Cochabamba y Santa Cruz como ejes centrales; y a través de vendedores internos y externos de la empresa a los departamentos de: Oruro, Potosí, Sucre y Tarija.
+            
+            Debido a las condiciones climatológicas, es muy difícil que los productos se distribuyan en zonas muy cálidas como los departamentos de Beni y Pando, dado que la marca busca ofrecer productos de alta calidad a todos sus clientes.
+            </p>
+            <p>
+                El trabajo dentro de Breick va desde la elaboración y fabricación de todas las líneas de productos hasta la distribución de los mismos en los departamentos de: La Paz, Cochabamba y Santa Cruz como ejes centrales; y a través de vendedores internos y externos de la empresa a los departamentos de: Oruro, Potosí, Sucre y Tarija.
+
+                Debido a las condiciones climatológicas, es muy difícil que los productos se distribuyan en zonas muy cálidas como los departamentos de Beni y Pando, dado que la marca busca ofrecer productos de alta calidad a todos sus clientes.
+            </p>
+        <h3> Misión</h3>
+            <p>
+                La calidad de los productos ha hecho que en los últimos años, nuestro mercado crezca a un ritmo sostenido, convirtiéndonos en la marca de chocolates bolivianos más importante. Es nuestra misión mantener ese prestigio, y con la innovación en tecnología, fabricar y ofrecer siempre un producto que brinde satisfacción y confianza a nuestros consumidores.
+            </p>
+        <h3> Visión </h3>
+            <p>
+                Liderar la industria del chocolate encabezando tendencias y llegando a segmentos estratégicos en el territorio nacional. Además, expandirnos a territorio extranjero, exportando el chocolate más fino hecho en Bolivia.
+            </p>
+        <br>
+        <br>
+    </div>
+    <a id="gal"></a>
+    <h2> Galeria </h2>
+            <div class="contenedor">
+                <div>
+                    <img src="https://st2.depositphotos.com/1177973/6087/i/450/depositphotos_60872309-stock-photo-chocolates-assorted-on-crumble-paper.jpg" style="width: 100%;" style="height: 100%;">     
+                </div>
+                <div>
+                    <img src="https://st2.depositphotos.com/1177973/6106/i/950/depositphotos_61062431-stock-photo-group-of-sweet-chocolate-truffles.jpg" style="width: 100%;">
+                </div>
+                <div>
+                    <img src="https://media.istockphoto.com/photos/chocolates-picture-id488182109?k=20&m=488182109&s=612x612&w=0&h=BljjWACLTy7pp3MZaLV6OCwgBfNRkmRD9NxpC1-uRd0=" style="width: 100%;">
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGg6sDdoYfuTdC3OOdRFXJzq0e5p96LWIsIOB8mCofnMN-exMK4uZTFjZA9NRhWn4wWrs&usqp=CAU" style="width: 100%;">
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiZSk0C-KOZHSboIoMC-lUnJYv4xDqpDmGR_90Xu6ru90pD_suQuQtKezLHhy0ztCwjo&usqp=CAU" style="width: 100%;">
+                </div>
+                <div>
+                    <img src="https://i.blogs.es/9a5cda/chocolates-sanvalentin/840_560.jpg" style="width: 100%;">
+                </div>
+            </div>
+    <a id="tra"></a>
+    <h2> Contactos </h2>
+        <div class="cont">
+            <div>
+                <h4 align="center"> DIRECCION </h4>
+                <h4 > &nbsp;&nbsp; &nbsp;&nbsp; VILLA EL CARMEN</h4> 
+                <p1> Calle 4 nro. 57 - Cailla 867</p1> <br>
+                <p1> La Paz - Bolivia</p1>
+
+            </div>
+            <div>
+                <h4 align="center"> CONTACTOS</h4>
+                <h5 >  &nbsp;&nbsp; &nbsp;&nbsp;TELEFONOS </h5>
+                <P1>34616123456</P1><br>
+                <p1>4538489359</p1>
+                <h5 > &nbsp;&nbsp; &nbsp;&nbsp; GMAIL </h5>
+                <p1> dmayta@gmail.com</p1>
+                <br>
+                <br>
+
+            </div>
+        </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="pie"> DIEGO ALEJANDRO MAYTA MAYTA  </footer>
+</section>
+</body>
+</html>
